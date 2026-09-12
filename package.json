@@ -1,0 +1,8 @@
+{
+  "name": "campus-connect",
+  "version": "1.0.0",
+  "description": "Campus Connect frontend project",
+  "scripts": {
+    "test": "node tests/test.js"
+  }
+}
