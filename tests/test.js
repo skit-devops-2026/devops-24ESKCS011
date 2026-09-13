@@ -15,5 +15,8 @@ assert.ok(index.includes("Campus Connect"), "Home page content is incorrect");
 assert.ok(events.includes("Technology"), "Technology event category is missing");
 assert.ok(events.includes("Cultural"), "Cultural event category is missing");
 assert.ok(events.includes("Sports"), "Sports event category is missing");
+assert.ok(index.includes("<title>"), "Home page title is missing");
+assert.ok(events.includes("<title>"), "Events page title is missing");
+assert.ok(events.includes("event"), "Event content is missing");
 
 console.log("All Campus Connect tests passed!");
