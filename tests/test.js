@@ -19,4 +19,4 @@ assert.ok(index.includes("<title>"), "Home page title is missing");
 assert.ok(events.includes("<title>"), "Events page title is missing");
 assert.ok(events.includes("event"), "Event content is missing");
 
-console.log("All Campus Connect tests passed!");
+console.log("All Campus Connect tests passed!");assert.ok(false, "Temporary CI failure for testing");
