@@ -1,0 +1,6 @@
+services:
+  campus-connect:
+    build: .
+    container_name: campus-connect
+    ports:
+      - "8081:80"
