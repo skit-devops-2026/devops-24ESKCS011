@@ -1,6 +1,7 @@
 services:
   campus-connect:
     build: .
+    image: 3464abhigyan/campus-connect:1.0
     container_name: campus-connect
     ports:
       - "8081:80"
