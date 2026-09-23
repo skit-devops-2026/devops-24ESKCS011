@@ -38,3 +38,8 @@ Campus-Connect/
 ├── .gitignore
 └── README.md
 ```
+## Live Deployment
+
+The Campus Connect website is deployed using GitHub Pages.
+
+Live URL: https://skit-devops-2026.github.io/devops-24ESKCS011/
